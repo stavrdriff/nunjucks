@@ -1,0 +1,43 @@
+{
+   "name": "Tymofii",
+   "class": "WGA",
+   "teacher": false,
+   "companyName": "WebGet Agency",
+   "headerMenu": [
+      {
+         "menu_item": "home"
+      },
+      {
+         "menu_item": "shop"
+      },
+      {
+         "menu_item": "lookbook"
+      },
+      {
+         "menu_item": "features"
+      },
+      {
+         "menu_item": "pages"
+      },
+      {
+         "menu_item": "blog"
+      }
+   ],
+   "headerLinks": [
+      {
+         "link_href": "#",
+         "link_title": "search on site",
+         "link_span_class": "icon-search"
+      },
+      {
+         "link_href": "#",
+         "link_title": "my favorite",
+         "link_span_class": "icon-heart-o"
+      },
+      {
+         "link_href": "#",
+         "link_title": "my cart",
+         "link_span_class": "icon-cart"
+      }
+   ]
+}

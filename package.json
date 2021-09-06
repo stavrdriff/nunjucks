@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "nunjucks": "^3.2.3"
+  },
+  "name": "nun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stavrdriff/nunj.git"
+  },
+  "author": "Tymofii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stavrdriff/nunj/issues"
+  },
+  "homepage": "https://github.com/stavrdriff/nunj#readme",
+  "description": ""
+}

@@ -1,0 +1,31 @@
+<header class="header">
+      <div class="container">
+         <div class="header__container">
+            <a href="#" class="logo" title="Main">{{companyName}}</a>
+            <nav class="nav">
+               <ul class="nav__ul">
+               {% for item in headerMenu %}
+               <li class="nav__li"><a href="{{"#" + item.menu_item}}" class="nav__link" title="{{item.menu_item | capitalize}}">{{item.menu_item}}</a></li>
+               {% endfor %}
+               </ul>
+            </nav>
+            <div class="header__links">
+               {% for item in headerLinks %}
+                <a href="{{item.link_href}}" class="header__link" title="{{item.link_title | capitalize}}"><span class="{{item.link_span_class}}"></span></a>
+               {% endfor %}
+            </div>
+            <div id="burger" class="header__burger burger" title="Menu">
+               <div class="burger__line"></div>
+               <div class="burger__line"></div>
+               <div class="burger__line"></div>
+            </div>
+            <nav id="menu" class="menu">
+               <ul class="menu__ul">
+               {% for item in headerMenu %}
+               <li class="menu__li"><a href="{{"#" + item.menu_item}}" class="menu__link" title="{{item.menu_item | upper}}">{{item.menu_item}}</a></li>
+               {% endfor %}
+              </ul>
+            </nav>
+         </div>
+      </div>
+   </header>
