@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stavrdriff/nunj.git"
+    "url": "git+https://github.com/stavrdriff/nunjucks.git"
   },
   "author": "Tymofii",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stavrdriff/nunj/issues"
+    "url": "https://github.com/stavrdriff/nunjucks/issues"
   },
-  "homepage": "https://github.com/stavrdriff/nunj#readme",
+  "homepage": "https://github.com/stavrdriff/nunjucks#readme",
   "description": ""
 }
