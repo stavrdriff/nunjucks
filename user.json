@@ -71,7 +71,7 @@
          "brand": "igure",
          "description": "green muscle fit polo shirt",
          "price": "229",
-         "discount": "",
+         "discount": "0",
          "sex": "woman"
       },
       {
@@ -143,6 +143,36 @@
          "price": "229",
          "discount": "129",
          "sex": "man"
+      }
+   ],
+   "gridImages": [
+      {
+         "url": "img/grid1.jpg",
+         "alt": "WebGet Agency",
+         "href": "",
+         "linkTitle": "Category name - WebGet Agency",
+         "linkName": "category name"
+      },
+      {
+         "url": "img/grid2.jpg",
+         "alt": "WebGet Agency",
+         "href": "#",
+         "linkTitle": "Category name - WebGet Agency",
+         "linkName": "category name"
+      },
+      {
+         "url": "img/grid3.jpg",
+         "alt": "WebGet Agency",
+         "href": "",
+         "linkTitle": "Category name - WebGet Agency",
+         "linkName": "category name"
+      },
+      {
+         "url": "img/grid4.jpg",
+         "alt": "WebGet Agency",
+         "href": "",
+         "linkTitle": "Category name - WebGet Agency",
+         "linkName": "category name"
       }
    ]
 }

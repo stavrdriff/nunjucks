@@ -19,19 +19,18 @@
 <section class="photos grid">
    <div class="container">
       <div class="grid__wrap">
-         <div class="grid__images grid__images-span2">
-            <img src="img/grid1.jpg" alt="" class="grid__img">
+
+         {% for img in gridImages %}
+         <div class="grid__images
+         {% if loop.index == 1 %} grid__images-span2{% endif %}
+         {% if loop.index == 2 %} grid__images-span4{% endif %}">
+            <img src="{{img.url}}" alt="{{img.alt}}" class="grid__img">
+            {% if img.href != 0 %}
+             <a href="{{img.href}}" class="grid__link ButtonWhite" title="{{img.linkTitle}}">{{img.linkName}}</a>
+            {% endif %}
          </div>
-         <div class="grid__images  grid__images-span4">
-            <img src="img/grid2.jpg" alt="" class="grid__img">
-            <a href="#" class="grid__link ButtonWhite" title="Category name - Your Logo">category name</a>
-         </div>
-         <div class="grid__images">
-            <img src="img/grid3.jpg" alt="" class="grid__img">
-         </div>
-         <div class="grid__images">
-            <img src="img/grid4.jpg" alt="" class="grid__img">
-         </div>
+         {% endfor %}
+
       </div>
    </div>
 </section>
@@ -54,8 +53,9 @@
                <p class="card__brand"><a href="{{item.href}}" class="card__link">{{item.brand}}</a></p>
                <p class="card__description"><a href="{{item.href}}" class="card__link">{{item.description}}</a></p>
                <div class="card__wrap">
-                  <div class="card__price {% if item.discount %} card__price-through {% endif %}">{{item.price}}</div>
-                  {% if item.discount %}
+                  <div class="card__price {% if item.discount != 0 %} card__price-through {% endif %}">{{item.price}}
+                  </div>
+                  {% if item.discount != 0 %}
                   <div class="card__price card__price-red">{{item.discount}}</div>
                   {% endif %}
                </div>
