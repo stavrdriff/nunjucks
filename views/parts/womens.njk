@@ -1,0 +1,17 @@
+{% for item in womens %}
+<div class="card">
+   <div class="card__images">
+      <a href="{{item.href}}" class="card__link">
+         <img src="{{item.imgUrl}}" alt="{{item.imgAlt}}" class="card__img">
+      </a>
+   </div>
+   <div class="card__text">
+      <p class="card__brand"><a href="{{item.href}}" class="card__link">{{item.brand}}</a></p>
+      <p class="card__description"><a href="{{item.href}}" class="card__link">{{item.description}}</a></p>
+      <div class="card__wrap">
+         <div class="card__price card__price-through">{{item.price}}</div>
+         <div class="card__price card__price-red">{{item.discount}}</div>
+      </div>
+   </div>
+</div>
+{% endfor %}

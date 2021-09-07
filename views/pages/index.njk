@@ -2,11 +2,159 @@
 
 {% include "parts/header.njk" %}
 
+   <section class="firstPicture imagine">
+      <img class="imagine__img" src="{{backgroundImageFirstPictureUrl}}"
+         alt="{{backgroundImageFirstPictureAlt}}">
+      <div class="imagine__wrap imagine__wrap-right">
+         <h5 class="imagine__h5">NEW TREND</h5>
+         <h1 class="imagine__h1">COLLUSION</h1>
+         <p class="imagine__description">An exclusive selection of this season's trends.</p>
+         <div class="imagine__btns">
+         {% for item in firstPictureBtns %}
+         <a href="{{item.href}}" class="imagine__link ButtonBlack" title="{{item.title}}">{{item.name}}</a>
+         {% endfor %}
+         </div>
+      </div>
+   </section>
+
+   <section class="photos grid">
+      <div class="container">
+         <div class="grid__wrap">
+            <div class="grid__images grid__images-span2">
+               <img src="img/grid1.jpg" alt="" class="grid__img">
+            </div>
+            <div class="grid__images  grid__images-span4">
+               <img src="img/grid2.jpg" alt="" class="grid__img">
+               <a href="#" class="grid__link ButtonWhite" title="Category name - Your Logo">category name</a>
+            </div>
+            <div class="grid__images">
+               <img src="img/grid3.jpg" alt="" class="grid__img">
+            </div>
+            <div class="grid__images">
+               <img src="img/grid4.jpg" alt="" class="grid__img">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="womens items">
+      <div class="container">
+         <h2 class="womens__title items__title">WOMeN’S FASHION</h2>
+         <p class="womens__description items__description">shop our new arrivals from established brands</p>
+         <div class="items__wrap">
+
+         {% include "parts/womens.njk" %}
+
+         </div>
+      </div>
+   </section>
+
+   <section class="mens items">
+      <div class="container">
+         <h2 class="mens__title items__title">men’S FASHION</h2>
+         <p class="mens__description items__description">shop our new arrivals from established brands</p>
+         <div class="items__wrap">
+
+         {% include "parts/mens.njk" %}
+
+         </div>
+      </div>
+   </section>
 
 
+   <section class="styles items">
+      <div class="container">
+         <h2 class="styles__title items__title">avone styles</h2>
+         <p class="styles__description styles__description-capitalize items__description">choose your favorite color</p>
+         <div class="styles__wrap">
+            <div class="styles__container styles__container-paddingtop">
+               <img src="img/styles1.jpg" alt="" class="styles__img">
+            </div>
+            <div class="styles__container styles__container-paddingright styles__container-paddingbottom">
+               <img src="img/styles2.jpg" alt="" class="styles__img">
+               <div class="styles__block">
+                  <a href="#" class="styles__link">show women`s dress</a>
+                  <div class="styles__background">
+                     <img src="img/styles3.jpg" alt="" class="styles__img">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
 
+   <section class="secondPicture imagine">
+      <img class="imagine__img" src="{{backgroundImageSecondPictureUrl}}" alt="{{backgroundImageSecondPictureAlt}}">
+      <div class="imagine__wrap imagine__wrap-left">
+         <h5 class="imagine__h5">OWN THE DAY</h5>
+         <h2 class="imagine__h1">TACHEN 19</h2>
+         <div class="imagine__btns">
+         {% for item in secondPictureBtns %}
+         <a href="{{item.href}}" class="imagine__link ButtonBlack" title="{{item.title}}">{{item.name}}</a>
+         {% endfor %}
+         </div>
+      </div>
+   </section>
 
-
+ <section class="information">
+      <div class="container">
+         <div class="information__container">
+            <div class="information__contacts">
+               <h5 class="information__title">your logo</h5>
+               <p class="information__text">We earned a reputation of being good at what we do.
+                  Let us take your online shop to new dimension in
+                  success!</p>
+               <a href="https://goo.gl/maps/ngkDtNaKGfhUYEPu5" class="information__link information__link-marginbottom"
+                  target="_blank" title="Open map"><span class="icon-gps_fixed information__gps"></span>Comilla,
+                  Bangladesh
+                  3500</a>
+               <a href="mailto:kawsarahmed0210@gmail.com" class="information__link information__link-borderbottom"
+                  title="Send Email">kawsarahmed0210@gmail.com</a>
+               <a href="tel:01647470457" class="information__link" title="Call">01647470457</a>
+               <div class="socials">
+                  <a href="https://www.facebook.com/" class="socials__link" target="_blank" title="Facebook"><span
+                        class="icon-facebook"></span></a>
+                  <a href="https://www.instagram.com/" class="socials__link" target="_blank" title="Instagram"><span
+                        class="icon-instagram"></span></a>
+                  <a href="https://twitter.com/" class="socials__link" target="_blank" title="Twitter"><span
+                        class="icon-twitter"></span></a>
+                  <a href="https://www.linkedin.com/" class="socials__link" target="_blank" title="LinkedIn"><span
+                        class="icon-linkedin"></span></a>
+               </div>
+            </div>
+            <div class="information__links">
+               <h5 class="information__title">recive email updates</h5>
+               <form class="information__subscribe">
+                  <input class="information__input" type="email" placeholder="your email address" required>
+                  <button class="information__btn">join</button>
+               </form>
+               <div class="information__wrap">
+                  <div class="information__column">
+                     <h6 class="information__h6">Shop</h6>
+                     <a href="#" class="information__link" title="Shop">Shop</a>
+                     <a href="#" class="information__link" title="Collection">Collection</a>
+                     <a href="#" class="information__link" title="Outlet">Outlet</a>
+                     <a href="#" class="information__link" title="Lookbook">Lookbook</a>
+                  </div>
+                  <div class="information__column">
+                     <h6 class="information__h6">Help</h6>
+                     <a href="#" class="information__link" title="FAQ">FAQ</a>
+                     <a href="#" class="information__link" title="Privacy Policy">Privacy Policy</a>
+                     <a href="#" class="information__link" title="Terms and conditions">Terms and conditions</a>
+                     <a href="#" class="information__link" title="Return and Exchanges">Return and Exchanges</a>
+                  </div>
+                  <div class="information__column">
+                     <h6 class="information__h6">About</h6>
+                     <a href="#" class="information__link" title="Journal">Journal</a>
+                     <a href="#" class="information__link" title="Our Story">Our Story</a>
+                     <a href="#" class="information__link" title="Contact">Contact</a>
+                     <a href="#" class="information__link" title="Store Location">Store Location</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
 
 {% include "parts/footer.njk" %}
 

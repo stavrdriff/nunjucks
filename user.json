@@ -39,5 +39,104 @@
          "link_title": "my cart",
          "link_span_class": "icon-cart"
       }
+   ],
+   "backgroundImageFirstPictureUrl": "img/imagine1.jpg",
+   "backgroundImageFirstPictureAlt": "WebGet Agency - new trend - An exclusive selection of this season's trends.",
+   "backgroundImageSecondPictureUrl": "img/imagine2.jpg",
+   "backgroundImageSecondPictureAlt": "WebGet Agency - new trend - An exclusive selection of this season's trends.",
+   "firstPictureBtns": [
+      {
+         "title": "Discover - WebGet Agency",
+         "href": "#",
+         "name": "discover"
+      },
+      {
+         "title": "Shop now - WebGet Agency",
+         "href": "#",
+         "name": "shop now"
+      }
+   ],
+   "secondPictureBtns": [
+      {
+         "title": "Shop collection - WebGet Agency",
+         "href": "#",
+         "name": "Shop collection"
+      }
+   ],
+   "womens": [
+      {
+         "imgUrl": "img/card1.jpg",
+         "imgAlt": "IGURE - Green Muscle Fit Polo Shirt - Your Logo",
+         "href": "#",
+         "brand": "igure",
+         "description": "green muscle fit polo shirt",
+         "price": "229",
+         "discount": "129"
+      },
+      {
+         "imgUrl": "img/card2.jpg",
+         "imgAlt": "IGURE - Green Muscle Fit Polo Shirt - Your Logo",
+         "href": "#",
+         "brand": "igure",
+         "description": "green muscle fit polo shirt",
+         "price": "229",
+         "discount": "129"
+      },
+      {
+         "imgUrl": "img/card3.jpg",
+         "imgAlt": "IGURE - Green Muscle Fit Polo Shirt - Your Logo",
+         "href": "#",
+         "brand": "igure",
+         "description": "green muscle fit polo shirt",
+         "price": "229",
+         "discount": "129"
+      },
+      {
+         "imgUrl": "img/card4.jpg",
+         "imgAlt": "IGURE - Green Muscle Fit Polo Shirt - Your Logo",
+         "href": "#",
+         "brand": "igure",
+         "description": "green muscle fit polo shirt",
+         "price": "229",
+         "discount": "129"
+      }
+   ],
+   "mens": [
+      {
+         "imgUrl": "img/card5.jpg",
+         "imgAlt": "IGURE - Green Muscle Fit Polo Shirt - Your Logo",
+         "href": "#",
+         "brand": "igure",
+         "description": "green muscle fit polo shirt",
+         "price": "229",
+         "discount": "129"
+      },
+      {
+         "imgUrl": "img/card6.jpg",
+         "imgAlt": "IGURE - Green Muscle Fit Polo Shirt - Your Logo",
+         "href": "#",
+         "brand": "igure",
+         "description": "green muscle fit polo shirt",
+         "price": "229",
+         "discount": "129"
+      },
+      {
+         "imgUrl": "img/card7.jpg",
+         "imgAlt": "IGURE - Green Muscle Fit Polo Shirt - Your Logo",
+         "href": "#",
+         "brand": "igure",
+         "description": "green muscle fit polo shirt",
+         "price": "229",
+         "discount": "129"
+      },
+      {
+         "imgUrl": "img/card8.jpg",
+         "imgAlt": "IGURE - Green Muscle Fit Polo Shirt - Your Logo",
+         "href": "#",
+         "brand": "igure",
+         "description": "green muscle fit polo shirt",
+         "price": "229",
+         "discount": "129"
+      }
    ]
 }
