@@ -19,7 +19,6 @@
 <section class="photos grid">
    <div class="container">
       <div class="grid__wrap">
-
          {% for img in gridImages %}
          <div class="grid__images
          {% if loop.index == 1 %} grid__images-span2{% endif %}
@@ -30,7 +29,6 @@
             {% endif %}
          </div>
          {% endfor %}
-
       </div>
    </div>
 </section>
@@ -40,7 +38,6 @@
       <h2 class="womens__title items__title">WOMeN’S FASHION</h2>
       <p class="womens__description items__description">shop our new arrivals from established brands</p>
       <div class="items__wrap">
-
          {% for item in cards %}
          {% if item.sex==="woman" %}
          <div class="card">
@@ -63,7 +60,6 @@
          </div>
          {% endif %}
          {% endfor %}
-
       </div>
    </div>
 </section>
@@ -73,7 +69,6 @@
       <h2 class="mens__title items__title">men’S FASHION</h2>
       <p class="mens__description items__description">shop our new arrivals from established brands</p>
       <div class="items__wrap">
-
          {% for item in cards %}
          {% if item.sex==="man" %}
          <div class="card">
@@ -96,7 +91,6 @@
          </div>
          {% endif %}
          {% endfor %}
-
       </div>
    </div>
 </section>
